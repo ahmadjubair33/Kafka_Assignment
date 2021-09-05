@@ -5,3 +5,21 @@
   "course" : "B.tech",
   "age" : 23
 }
+{
+  "id" : 2,
+  "name" : "Jubair",
+  "course" : "B.tech",
+  "age" : 24
+}
+{
+  "id" : 1,
+  "name" : "Jubair",
+  "course" : "B.tech",
+  "age" : 24
+}
+{
+  "id" : 2,
+  "name" : "Ahmad",
+  "course" : "Msc",
+  "age" : 25
+}

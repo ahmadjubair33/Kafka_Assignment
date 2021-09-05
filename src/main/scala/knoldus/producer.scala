@@ -25,7 +25,7 @@ object producer extends App {
 
   println(s"Sending Records in Kafka Topic [$topic]")
 
-  for (i <- 1 to 10) {
+  for (i <- 1 to 80) {
 
 
     val record: ProducerRecord[Nothing, String] =
@@ -40,13 +40,13 @@ object producer extends App {
     var name = ""
     var course = ""
     var age = 0
-    println("Enter the name")
+    println("Enter the user name ")
     name = scanner.nextLine()
 
     println("Enter the course")
     course = scanner.nextLine()
 
-    println("Enter the age")
+    println("Enter the user age")
     age = scanner.nextInt()
     scanner.nextLine()
 

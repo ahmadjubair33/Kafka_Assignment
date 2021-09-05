@@ -14,9 +14,9 @@ object consumer extends App {
   props.put("value.deserializer", "org.apache.kafka.common.serialization.StringDeserializer")
   props.put("group.id", "consumer-group-1")
   props.put("enable.auto.commit", "true")
-  props.put("auto.commit.interval.ms", "1000")
+  props.put("auto.commit.interval.ms", "5000")
   props.put("auto.offset.reset", "earliest")
-  props.put("session.timeout.ms", "30000")
+  props.put("session.timeout.ms", "20000")
 
   val topic = "kafka-topic"
   val consumer: KafkaConsumer[Nothing, String] = new KafkaConsumer[Nothing, String](props)
